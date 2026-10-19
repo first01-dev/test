@@ -11,7 +11,7 @@ export default function Home() {
 
       <p>Racket quantity: {count}</p>
 
-      <button onClick={() => setCount(Math.min(15, count + 1))}>
+      <button onClick={() => setCount(Math.min(15, count + 5))}>
         Add Racket
       </button>
 
@@ -19,7 +19,7 @@ export default function Home() {
         Reset
       </button>
 
-      <button onClick={() => setCount(Math.max(0, count - 1))} >
+      <button onClick={() => setCount(Math.max(0, count - 2))} >
         Remove Racket
       </button>
     </main>
